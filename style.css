@@ -1,12 +1,14 @@
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(19, 17, 22);
+    height: 100vh;
 }
 main {
     padding-top: 38vh;
-    height: 100vh;
-    text-align: center
+    height: 62vh;
+    text-align: center;
 }
+
 main::after {
     content: "";
     background: url(net.jpg) no-repeat center center fixed; 
